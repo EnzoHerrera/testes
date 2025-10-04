@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <button class="menu" id="menu-toggle">☰</button>
+        <h1 class="logo">HydroCore</h1>
+        <div class="avatar-container">
+            <div class="avatar" id="avatar">
+                <div class="dropdown" id="dropdown">
+                    <ul>
+                        <button class="logout">
+                            <li><img src="/porta.png">Sair</li>
+                        </button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <aside class="sidebar" id="sidebar">
+        <ul>
+            <a href="/index.html">
+                <li><img src="/imagem 9.png"> Informações</li>
+            </a>
+            <a href="/funcionarios.html">
+                <li><img src="/image 10.png"> Funcionarios</li>
+            </a>
+            <a href="/estoque.html">
+                <li><img src="/image 11.png"> Estoque</li>
+            </a>
+            <a href="/produto.html">
+                <li><img src="/image 12.png"> Produtos</li>
+            </a>
+            <a href="/cargo.html">
+                <li><img src="/image 13.png"> Cargo</li>
+            </a>
+        </ul>
+    </aside>
+
+    <div class="plano-de-fundo">
+        <main>
+            <section class="lista">
+                <h2>Estoque</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Quantidade Atual</th>
+                            <th>Unidade</th>
+                            <th>Última Atualização</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Coagulante X</td>
+                            <td>120</td>
+                            <td>mL</td>
+                            <td>10/09/2025, 18:32:33</td>
+                            <td>
+                                <button class="botao-editar">Entrada</button>
+                                <button class="botao-excluir">Saída</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Floculante</td>
+                            <td>60</td>
+                            <td>Kg</td>
+                            <td>10/09/2025, 18:32:33</td>
+                            <td>
+                                <button class="botao-editar">Entrada</button>
+                                <button class="botao-excluir">Saída</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
