@@ -163,6 +163,14 @@ main {
     margin-bottom: 6px;
 }
 
+.box-alterar {
+    display: flex;
+    justify-content: end;
+}
+.box-alterar button {
+    height: 35px;
+    margin-top: 35px;
+}
 .box p {
     font-size: 13px;
 }
@@ -186,6 +194,7 @@ form {
 .campos {
     display: flex;
     flex-direction: column;
+    outline: none;
 }
 
 .campos label {
@@ -353,14 +362,12 @@ table th {
     text-align: left;
 }
 
-/* Centraliza melhor o logo no header */
 .logo {
     color: #2AA0C4;
     font-size: 20px;
-    margin-left: 0;           /* antes: 125px */
+    margin-left: 0; 
 }
 
-/* Ajusta o avatar e o dropdown */
 .avatar-container {
     position: relative;
     display: flex;
@@ -369,8 +376,8 @@ table th {
 }
 
 .avatar {
-    width: 36px;              /* antes: 32px */
-    height: 36px;             /* antes: 32px */
+    width: 36px;              
+    height: 36px;             
     background: black;
     border-radius: 50%;
     display: flex;
@@ -378,24 +385,23 @@ table th {
     justify-content: center;
 }
 
-/* Corrige posição e aparência do dropdown */
 .dropdown {
     display: none;
     position: absolute;
-    top: 45px;                /* antes: 40px */
+    top: 45px;                
     right: 0;
     background: white;
     border: 1px solid #ddd;
-    border-radius: 8px;       /* antes: 6px */
+    border-radius: 8px;       
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
     z-index: 100;
-    min-width: 140px;         /* antes: 120px */
+    min-width: 140px;       
 }
 
-/* Corrige ícones no menu lateral */
 .sidebar ul li img {
     vertical-align: middle;
-    margin-right: 8px;        /* adicionado */
-    margin-bottom: -3px;      /* ajustado */
-    width: 22px;              /* antes: 20px */
+    margin-right: 8px;        
+    margin-bottom: -3px;      
+    width: 22px;              
 }
+
